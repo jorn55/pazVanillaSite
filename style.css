@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+
+body {
+    background-color: white;
+    font-family: 'arial';
+}
+
+div.head-bar {
+  position: relative;
+  height: 90px;
+  background-color: rgb(144, 144, 144);
+}
+
+div.head-content {
+  width: 900px;
+  margin: auto;
+}
+
+div.search-row {
+  position: absolute;
+  top: 20px;
+  border: 0px;
+}
+
+.english {
+  float: right;
+  padding-left: 10px;
+  margin-top: 3px;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+div.search-row > input {
+  float: right;
+  border: 0px;
+  margin: 1px;
+  border-top-right-radius: 10px;
+}
+
+div.head-addon {
+  position: absolute;
+  top: 90;
+  height: 15px;
+  background-image: linear-gradient(to bottom, rgb(144, 144, 144), rgb(168, 168, 168));
+}
+
+
