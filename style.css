@@ -121,6 +121,7 @@ div.main-content {
 
 
 div.top {
+  position: relative;
   float: left;
   height: 353px;
   width: 270px;
@@ -138,6 +139,16 @@ div#top-middle {
 
 div#top-right {
   background-image: url(images/top-right.jpg)
+}
+
+div.inner {
+  position: absolute;
+  height: 96px;
+  width: 245px;
+  background-color: rgba(155,155,155,.8);
+  border-bottom-right-radius: 20px;
+  right: 5px;
+  bottom: 5px;
 }
 
 div.bottom {
