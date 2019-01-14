@@ -170,6 +170,35 @@ div.bottom {
   background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(236, 236, 236));
 }
 
+#english {
+  direction: ltr;
+}
+
+div.ad-img {
+  width: 250px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+div.extra-space {
+  float: left;
+  margin-top: 20px; 
+  width: 100%;
+  height: 40px;
+}
+
+div.title {
+  /* float: left; */
+  border-bottom: lightgrey 2px solid;
+  width: 245px;
+  height: 33px;
+  text-align: right;
+  margin: auto;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
 footer {
   position: fixed;
   height: 38px;
