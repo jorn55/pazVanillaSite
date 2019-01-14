@@ -149,7 +149,15 @@ div.inner {
   border-bottom-right-radius: 20px;
   right: 5px;
   bottom: 5px;
+  color: white;
+  font-size: 13px;
+  padding: 6px;
 }
+
+div.inner > h2 {
+  font-weight: bold;
+}
+
 
 div.bottom {
   float: left;
@@ -160,4 +168,47 @@ div.bottom {
   margin-right: 30px;
   border: 1px rgb(236,236,236) solid;
   background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(236, 236, 236));
+}
+
+footer {
+  position: fixed;
+  height: 38px;
+  background-color: grey;
+  width: 100%;
+  bottom: 0px;
+}
+
+.foot-menu {
+  width: 900px;
+  /* padding-top: 10px; */
+  margin: auto;
+}
+
+.foot-menu > ul {
+  /* margin-right: 50px; */
+  color: white;
+  float: right;
+  list-style: none;
+  /* padding-inline-start: 0px; */
+}
+
+.foot-menu > ul > li {
+  /* position: relative; */
+  display: inline;
+}
+
+.foot-menu > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.foot-menu > ul > li > a > img {
+
+  padding-top: 4px;
+}
+
+#settlement {
+  color: darkred;
 }
