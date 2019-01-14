@@ -4,8 +4,8 @@
   }
 
 body {
-    /* direction: rtl; */
-    /* text-align: right; */
+    direction: rtl;
+    text-align: right;
     background-color: white;
     font-family: 'arial';
 }
@@ -17,6 +17,7 @@ div.head-bar {
 }
 
 div.head-content {
+  position: relative;
   width: 900px;
   margin: auto;
 }
@@ -24,7 +25,12 @@ div.head-content {
 div.search-row {
   position: absolute;
   top: 20px;
+  left: 0px;
   border: 0px;
+}
+
+div.search-row > a > img.search {
+  float: left;
 }
 
 .english {
@@ -37,7 +43,8 @@ div.search-row {
 }
 
 div.search-row > input {
-  float: right;
+  text-align: right;
+  float: left;
   width: 135px;
   border: 0px;
   margin: 1px;
@@ -51,26 +58,40 @@ div.head-addon {
   background-image: linear-gradient(to bottom, rgb(144, 144, 144), rgb(168, 168, 168));
 }
 
-div.menu {
-  position: absolute;
-  bottom: 1px;
+/* div.menu-row {
+  float: left;
+} */
+
+div.menu-row {
+  height: 90px;
 }
+
+div.menu {
+  float: left;
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+}
+
 div.menu > ul {
-  /* direction: rtl; */
-  /* left: 0px; */
   margin-right: 50px;
   float: right;
   list-style: none;
   padding-inline-start: 0px;
-  /* width: 970px; */
 }
 
 div.menu > ul > li {
+  position: relative;
   display: inline;
 }
 
+div.menu > img {
+  position: absolute;
+  bottom: -35px;
+  right: -60px;
+}
+
 div.menu > ul > li > a {
-  /* display: block; */
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
@@ -81,8 +102,17 @@ div.menu > ul > li > a {
   padding-top: 15px;
 }
 
+div.menu > ul > li > img.sep {
+  position: absolute;
+  right: 10px;
+}
+
 div.menu > ul > li > a:hover {
   color: rgb(0,92,156);
   text-decoration: underline;
+}
+
+div.main-content {
+  width: 900;
 }
 
