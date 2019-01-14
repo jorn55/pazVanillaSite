@@ -48,6 +48,7 @@ div.search-row > input {
   width: 135px;
   border: 0px;
   margin: 1px;
+  padding-right: 2px;
   border-top-right-radius: 10px;
 }
 
@@ -170,6 +171,56 @@ div.bottom {
   background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(236, 236, 236));
 }
 
+div.more {
+  float: left;
+  /* text-decoration-color: white; */
+  position: absolute;
+  /* color: white; */
+  bottom: 5px;
+  left: 5px;
+}
+
+div.more > a {
+  color: white;
+}
+
+div.more > a > img {
+  margin-right: 3px;
+}
+
+div.more2 {
+  float: left;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+div.more2 > a {
+  color: black;
+  font-size: 13px;
+}
+
+div.more2 > a > img {
+  margin-right: 3px;
+}
+
+div.more3 {
+  display: block;
+  position: relative;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+div.more3 > a {
+  color: black;
+  font-size: 13px;
+}
+
+div.more3 > a > img {
+  margin-right: 3px;
+}
+
+
 #english {
   direction: ltr;
 }
@@ -178,6 +229,16 @@ div.ad-img {
   width: 250px;
   margin: auto;
   margin-top: 10px;
+}
+
+div#map {
+  position: relative;
+  left: 0px;
+}
+
+div#map > img {
+  position: absolute;
+  left: 10px;
 }
 
 div.extra-space {
