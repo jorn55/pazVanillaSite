@@ -357,6 +357,7 @@ footer {
 
 .foot-menu > ul {
   /* margin-right: 50px; */
+  margin-top: 12px;
   color: white;
   float: right;
   list-style: none;
@@ -376,8 +377,9 @@ footer {
 }
 
 .foot-menu > ul > li > a > img {
-
-  padding-top: 4px;
+  float: right;
+  margin-left: 4px;
+  /* padding-top: 4px; */
 }
 
 #settlement {
