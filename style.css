@@ -226,14 +226,30 @@ div.more {
   /* color: white; */
   bottom: 5px;
   left: 5px;
+  background-image: url("images/read_more_white.png");
+  background-position-x: left;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
 }
 
 div.more > a {
   color: white;
+  margin-left: 12px;
 }
 
-div.more > a > img {
+/* div.more > a > img {
   margin-right: 3px;
+} */
+
+div.more:hover {
+  background-image: url("images/read_more_blue.png");
+  background-position-x: left;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+}
+
+div.more:hover > a {
+  color: rgb(0,92,156);
 }
 
 div.more2 {
@@ -241,22 +257,37 @@ div.more2 {
   position: relative;
   margin-top: 20px;
   margin-left: 10px;
+  background-image: url("images/read_more_yellow.png");
+  background-position-x: left;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
 }
 
 div.more2 > a {
-  color: black;
+  color: rgb(0,92,160);
   font-size: 13px;
+  margin-left: 12px;
 }
 
-div.more2 > a > img {
-  margin-right: 3px;
+div.more2:hover {
+  background-image: url("images/read_more_blue.png");
+  background-position-x: left;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
 }
+/* div.more2 > a > img {
+  margin-right: 3px;
+} */
 
 div.more3 {
   display: block;
   position: relative;
   margin-top: 5px;
   margin-right: 15px;
+  background-image: url("images/read_more_yellow.png");
+  background-position-x: 215px;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
 }
 
 div.more3 > a {
@@ -264,10 +295,12 @@ div.more3 > a {
   font-size: 13px;
 }
 
-div.more3 > a > img {
-  margin-right: 3px;
+div.more3:hover {
+  background-image: url("images/read_more_blue.png");
+  background-position-x: 215px;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
 }
-
 
 #english {
   direction: ltr;
