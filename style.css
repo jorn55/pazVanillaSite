@@ -59,10 +59,6 @@ div.head-addon {
   background-image: linear-gradient(to bottom, rgb(144, 144, 144), rgb(168, 168, 168));
 }
 
-/* div.menu-row {
-  float: left;
-} */
-
 div.menu-row {
   height: 90px;
 }
