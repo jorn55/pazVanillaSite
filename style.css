@@ -117,11 +117,10 @@ nav.main-nav > ul > li > a:hover {
 .drop-content {
   position: absolute;
   top: 15px;
-  left: -55px;
+  right: 20px;
   display: none;
   z-index: 25;
   padding: 4px;
-  /* box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3); */
 }
 
 .drop-content > ul {
@@ -135,6 +134,7 @@ nav.main-nav > ul > li > a:hover {
 nav.drop-content > ul > li {
   border-bottom: 1px lightgrey solid;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 nav.drop-content > ul > li > a {
@@ -146,7 +146,7 @@ nav.drop-content > ul > li > a {
   padding: 5px;
   /* border-bottom: 1px lightgrey solid; */
   background-color: rgb(144, 144, 144);
-  width: 100%;
+  /* width: 100%; */
 }
 
 nav.drop-content > ul > li:last-child {
