@@ -53,7 +53,6 @@ div.search-row > input {
 }
 
 div.head-addon {
-  /* position: absolute; */
   top: 190;
   height: 15px;
   background-image: linear-gradient(to bottom, rgb(144, 144, 144), rgb(168, 168, 168));
@@ -124,7 +123,6 @@ nav.main-nav > ul > li > a:hover {
 }
 
 .drop-content > ul {
-  /* position: relative; */
   list-style: none;
   background-color: rgb(144, 144, 144);
   padding-inline-start: 0px;
@@ -144,9 +142,7 @@ nav.drop-content > ul > li > a {
   font-size: 14px;
   text-decoration: none;
   padding: 5px;
-  /* border-bottom: 1px lightgrey solid; */
   background-color: rgb(144, 144, 144);
-  /* width: 100%; */
 }
 
 nav.drop-content > ul > li:last-child {
@@ -160,8 +156,8 @@ nav.drop-content > ul > li:last-child {
 nav.drop-content > ul > li > a:hover {
   background-color: rgb(188, 188, 188);
   color: rgb(0,92,160);
-  /* width: 100%; */
 }
+
 div.main-content {
   position: relative;
   margin: auto;
@@ -221,9 +217,7 @@ div.bottom {
 
 div.more {
   float: left;
-  /* text-decoration-color: white; */
   position: absolute;
-  /* color: white; */
   bottom: 5px;
   left: 5px;
   background-image: url("images/read_more_white.png");
@@ -236,10 +230,6 @@ div.more > a {
   color: white;
   margin-left: 12px;
 }
-
-/* div.more > a > img {
-  margin-right: 3px;
-} */
 
 div.more:hover {
   background-image: url("images/read_more_blue.png");
@@ -275,9 +265,6 @@ div.more2:hover {
   background-position-y: bottom;
   background-repeat: no-repeat;
 }
-/* div.more2 > a > img {
-  margin-right: 3px;
-} */
 
 div.more3 {
   display: block;
@@ -351,21 +338,17 @@ footer {
 
 .foot-menu {
   width: 900px;
-  /* padding-top: 10px; */
   margin: auto;
 }
 
 .foot-menu > ul {
-  /* margin-right: 50px; */
   margin-top: 12px;
   color: white;
   float: right;
   list-style: none;
-  /* padding-inline-start: 0px; */
 }
 
 .foot-menu > ul > li {
-  /* position: relative; */
   display: inline;
 }
 
@@ -379,9 +362,32 @@ footer {
 .foot-menu > ul > li > a > img {
   float: right;
   margin-left: 4px;
-  /* padding-top: 4px; */
 }
 
 #settlement {
   color: darkred;
+}
+
+/* about page */
+
+div.about-left {
+  float: left;
+  height: 168px;
+  width: 291px;
+  border-top-right-radius: 20px;
+  margin-top: 20px;
+  margin-right: 25px;
+  border: 1px rgb(236,236,236) solid;
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(236, 236, 236));
+}
+
+div.about-middle {
+  float: left;
+  width:440px;
+  margin-right: 25px;
+}
+
+div.about-right {
+  float: left;
+  width:121px;
 }
