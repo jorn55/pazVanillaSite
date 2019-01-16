@@ -1,16 +1,24 @@
-// function getValEmail() {
-// 	var email1 = document.getElementById("email").value;
-// 	console.log("email = " + email1);
-// }
+var myVar = setInterval(changePictures1, 7000);
+var myVar2 = setInterval(changePictures2, 5000);
 
-// function sendVals() {
-// 	var name1 = document.getElementById("name").value;
-// 	var email1 = document.getElementById("email").value;
-// 	var passw1 = document.getElementById("passw1").value;
-// 	var passw2 = document.getElementById("passw2").value;
-// 	console.log(name1 + " " + email1 + " " +  passw1);
 
-// }
+function changePictures1() {
+    if ( document.getElementById("img1").src == "file:///E:/school/day12-midProject/pazVanillaSite-1/images/250X110668568400.jpg" ) {
+        document.getElementById("img1").src = "file:///E:/school/day12-midProject/pazVanillaSite-1/images/banner_atar.jpg";
+    } else {
+        document.getElementById("img1").src = "file:///E:/school/day12-midProject/pazVanillaSite-1/images/250X110668568400.jpg";
+    }
+}
+
+function changePictures2() {
+    if ( document.getElementById("img2").src == "file:///E:/school/day12-midProject/pazVanillaSite-1/images/paz_250x110059890678.jpg" ) {
+        document.getElementById("img2").src = "file:///E:/school/day12-midProject/pazVanillaSite-1/images/paz_250x110103131473.jpg";
+    } else {
+        document.getElementById("img2").src = "file:///E:/school/day12-midProject/pazVanillaSite-1/images/paz_250x110059890678.jpg";
+    }
+}
+
+
 
 // function comparePwd() {
 // 	var pwd1 = document.getElementById("passw1").value;
