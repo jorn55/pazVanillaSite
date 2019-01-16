@@ -99,6 +99,22 @@ nav.main-nav > ul > li > a {
   padding-top: 15px;
 }
 
+/* nav.main-nav > ul > li.home > a.home_dark {
+  display:none;
+}
+
+nav.main-nav > ul > li.home:hover > a.home_blue {
+  display:none;
+}
+
+nav.main-nav > ul > li.home:hover > a.home_dark {
+  display: inline;
+} */
+
+nav.main-nav > ul > li#active > a {
+  color: rgb(0,92,156);
+}
+
 nav.main-nav > ul > li > img.sep {
   position: absolute;
   right: 10px;
@@ -359,6 +375,14 @@ footer {
   margin-bottom: 8px;
 }
 
+.foot-menu > ul > li > a:hover {
+  color: blue;
+}
+
+#settlement:hover {
+  color: blue;
+}
+
 .foot-menu > ul > li > a > img {
   float: right;
   margin-left: 4px;
@@ -373,21 +397,155 @@ footer {
 div.about-left {
   float: left;
   height: 168px;
-  width: 291px;
+  width: 289px;
   border-top-right-radius: 20px;
   margin-top: 20px;
-  margin-right: 25px;
+  margin-right: 22px;
   border: 1px rgb(236,236,236) solid;
   background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(236, 236, 236));
 }
 
 div.about-middle {
   float: left;
-  width:440px;
-  margin-right: 25px;
+  width:430px;
+  margin-right: 23px;
 }
 
 div.about-right {
   float: left;
-  width:121px;
+  width: 123px;
+}
+
+div.history {
+  width: 245px;
+  margin: auto;
+}
+
+div.history > h2 {
+  margin-top: 3px;
+  font-weight: bold;
+  font-size: 13px;
+  color: rgb(0,92,156);
+}
+
+div.history > p {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+div.more4 > a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+div.more4 > a:hover {
+  text-decoration: underline;
+}
+
+div.title2 {
+  border-bottom: lightgrey 2px solid;
+  width: 100%;
+  height: 33px;
+  text-align: right;
+  margin: auto;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+div.text-about > h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 13px;
+  color: rgb(0,92,156);
+}
+
+div.text-about > p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.breadcrumbs {
+  font-size: 13px;
+  /* margin-bottom: 10px; */
+}
+
+.breadcrumbs > a {
+  text-decoration: none;
+  color: black;
+}
+
+.breadcrumbs > a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.about-menu {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.about-menu > li {
+  /* padding-right: 12px; */
+  background-image: linear-gradient(to bottom, rgb(255,255,255), rgb(232,232,232));
+  padding-bottom: 3px;
+  padding-top: 13px;
+}
+
+.about-menu > li#active-side {
+  background-image: linear-gradient(to bottom, rgb(255,255,255), rgb(204,204,204));
+}
+
+.about-menu > li#active-side > a > svg > polygon.triangle {
+  visibility: visible;
+}
+
+.about-menu > li:hover {
+  background-image: linear-gradient(to bottom, rgb(255,255,255), rgb(204,204,204));
+}
+
+.about-menu > li > a {
+  display: block;
+  width: 100%;
+  height: 24px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.about-menu > li > a:hover > span {
+  text-decoration: underline;
+}
+
+.about-menu-item {
+  position: relative;
+}
+
+.about-menu-item > a > span {
+  padding-right: 5px;
+}
+
+.triangle {
+  position: absolute;
+  right: 0px;
+  top: 17px;
+  visibility: hidden;
+}
+
+.about-menu > li > a:hover .triangle {
+  visibility: visible;
+}
+
+#home-icon {
+  display: inline-block;
+  width: 18px;
+  height: 15px;
+  background-image: url("images/home_icon1.png")
+}
+
+#home-icon:hover {
+  background-image: url("images/home_icon.png")
 }
