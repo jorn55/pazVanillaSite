@@ -393,6 +393,10 @@ footer {
 }
 
 /* about page */
+div.left-col {
+  float: left;
+  width: 289px;
+}
 
 div.about-left {
   float: left;
@@ -548,4 +552,101 @@ div.text-about > p {
 
 #home-icon:hover {
   background-image: url("images/home_icon.png")
+}
+
+div.contact-form {
+  float: right;
+  height: 358px;
+  width: 368px;
+  border-top-right-radius: 20px;
+  font-size: 13px;
+  padding: 13px;
+  /* margin-top: 20px; */
+  /* margin-right: 22px; */
+  border: 1px rgb(236,236,236) solid;
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(236, 236, 236));
+}
+
+.contact-form > h3 {
+  color: blue;
+  margin-bottom: 3px;
+}
+
+.contact-form > h4 {
+  color: grey;
+  margin-bottom: 3px;
+}
+
+div.title-2 {
+  border-bottom: lightgrey 2px solid;
+  width: 400px;
+  height: 33px;
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  /* padding-top: 8px; */
+}
+
+.spacer {
+  height: 40px;
+}
+
+form {
+  width: 253px;
+  height: 241px;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.form-item {
+  padding: 5px;
+}
+
+.column {
+  float: right;
+}
+
+label.column {
+  width: 30%;
+  font-size: 12px;
+}
+
+input.column {
+  width: 70%;
+}
+
+.form-item > div.error-text {
+  display: none;
+  float: right;
+  color: red;
+}
+
+input:invalid ~ div.error-text {
+  display: block;
+}
+
+input:placeholder-shown ~ div.error-text {
+  display: none;
+}
+
+.form-item::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+button {
+  float: left;
+  color: white;
+  background-image: linear-gradient(to bottom, rgb(10, 161, 226), rgb(2, 79, 134));
+  border: 1px solid rgb(153, 217, 234);
+  border-top-right-radius: 5px;
+}
+
+button:hover {
+  color: black;
+  background-image: linear-gradient(to bottom, rgb(253, 233, 32), rgb(244, 143, 8));
+  border: 1px solid rgb(218, 218, 218);
+  border-top-right-radius: 5px;
 }
