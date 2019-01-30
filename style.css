@@ -309,14 +309,14 @@ div.more3:hover {
   direction: ltr;
 }
 
-div.ad-img {
-  width: 250px;
-  /* height: 110px; */
+/* img.ad-img {
   margin: auto;
   margin-top: 10px;
-  background-color: beige;
-}
-
+} */
+ .adv {
+   margin-right: 10px;
+   margin-top: 10px;
+ }
 
 /* div.ad-img#img1 {
   height: 110;
@@ -336,12 +336,12 @@ div.ad-img {
   display: none;
 }
 
-div#map {
+/* div#map {
   position: relative;
   left: 0px;
-}
+} */
 
-div#map > img {
+#map {
   position: absolute;
   left: 10px;
 }
